@@ -56,3 +56,11 @@ canvas {
     border-top-left-radius: 50% 1%;
   }
 }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto;
+}
